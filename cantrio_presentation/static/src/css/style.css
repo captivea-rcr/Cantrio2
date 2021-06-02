@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: "Segoe UI";
+    src: url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.eot");
+    src: url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5076583fa2a14cd2cf3634ff59a1138b.svg#Segoe UI Light") format("svg");
+}
+
+@font-face {
     font-family: SegoeUI;
     src:
         local("Segoe UI Light"),
