@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'SentinelBook';
+	src:url('../fonts/Sentinel-Book/Sentinel-Book.ttf');
+}
+span {
+	font-family: 'SentinelBook';
+}
+p {
+	font-family: 'SentinelBook';	
+}
+a {
+	font-family: 'SentinelBook';		
+}
+h1 {
+	font-family: 'SentinelBook';		
+}
+h2 {
+	font-family: 'SentinelBook';		
+}
+h3 {
+	font-family: 'SentinelBook';		
+}
+h4 {
+	font-family: 'SentinelBook';		
+}
+
+h5 {
+	font-family: 'SentinelBook';		
+}
+h6 {
+	font-family: 'SentinelBook';		
+}
+li {
+	font-family: 'SentinelBook';		
+}
+table {
+	font-family: 'SentinelBook';		
+}
+td {
+	font-family: 'SentinelBook';		
+}
+tr {
+	font-family: 'SentinelBook';		
+}
+th {
+	font-family: 'SentinelBook';		
+}
+b {
+	font-family: 'SentinelBook';		
+}
+button{
+	font-family: 'SentinelBook';		
+}
+button{
+	font-family: 'SentinelBook';		
+}
+input{
+	font-family: 'SentinelBook';		
+}
+textarea{
+	font-family: 'SentinelBook';		
+}
+div{
+	font-family: 'SentinelBook';		
+}
+address{
+	font-family: 'SentinelBook';		
+}
+$font-family-sans-serif: "SentinelBook";

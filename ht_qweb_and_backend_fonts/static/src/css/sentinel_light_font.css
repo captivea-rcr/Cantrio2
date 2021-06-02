@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'SentinelLight';
+	src:url('../fonts/Sentinel-Light/Sentinel-Light.ttf');
+}
+span {
+	font-family: 'SentinelLight';
+}
+p {
+	font-family: 'SentinelLight';	
+}
+a {
+	font-family: 'SentinelLight';		
+}
+h1 {
+	font-family: 'SentinelLight';		
+}
+h2 {
+	font-family: 'SentinelLight';		
+}
+h3 {
+	font-family: 'SentinelLight';		
+}
+h4 {
+	font-family: 'SentinelLight';		
+}
+
+h5 {
+	font-family: 'SentinelLight';		
+}
+h6 {
+	font-family: 'SentinelLight';		
+}
+li {
+	font-family: 'SentinelLight';		
+}
+table {
+	font-family: 'SentinelLight';		
+}
+td {
+	font-family: 'SentinelLight';		
+}
+tr {
+	font-family: 'SentinelLight';		
+}
+th {
+	font-family: 'SentinelLight';		
+}
+b {
+	font-family: 'SentinelLight';		
+}
+button{
+	font-family: 'SentinelLight';		
+}
+button{
+	font-family: 'SentinelLight';		
+}
+input{
+	font-family: 'SentinelLight';		
+}
+textarea{
+	font-family: 'SentinelLight';		
+}
+div{
+	font-family: 'SentinelLight';		
+}
+address{
+	font-family: 'SentinelLight';		
+}
+$font-family-sans-serif: "SentinelLight";

@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Belgium';
+	src:url('../fonts/belgium/Belgium-regular.ttf');
+}
+span {
+	font-family: 'Belgium';
+}
+p {
+	font-family: 'Belgium';	
+}
+a {
+	font-family: 'Belgium';		
+}
+h1 {
+	font-family: 'Belgium';		
+}
+h2 {
+	font-family: 'Belgium';		
+}
+h3 {
+	font-family: 'Belgium';		
+}
+h4 {
+	font-family: 'Belgium';		
+}
+
+h5 {
+	font-family: 'Belgium';		
+}
+h6 {
+	font-family: 'Belgium';		
+}
+li {
+	font-family: 'Belgium';		
+}
+table {
+	font-family: 'Belgium';		
+}
+td {
+	font-family: 'Belgium';		
+}
+tr {
+	font-family: 'Belgium';		
+}
+th {
+	font-family: 'Belgium';		
+}
+b {
+	font-family: 'Belgium';		
+}
+button{
+	font-family: 'Belgium';		
+}
+button{
+	font-family: 'Belgium';		
+}
+input{
+	font-family: 'Belgium';		
+}
+textarea{
+	font-family: 'Belgium';		
+}
+div{
+	font-family: 'Belgium';		
+}
+address{
+	font-family: 'Belgium';		
+}
+$font-family-sans-serif: "Belgium";

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="boostrap_style_report" name="boostrap style report" inherit_id="web.report_assets_common">
+        	<xpath expr="." position="inside">
+                <t t-set="pdf_font" t-value="request.env['ir.config_parameter'].sudo().get_param('ht_qweb_and_backend_fonts.pdf_font')"/>
+                <t t-if="pdf_font == 'tazawal' ">
+        		  <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/tazawal_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'amiri'">
+        			<link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/amiri_font.css"/>
+        		</t>
+        		<t t-if="pdf_font == 'changa'">
+        			<link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/changa_font.css"/>
+        		</t>
+                <t t-if="pdf_font == 'roboto'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/roboto_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'poppins'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/poppins_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'notosans'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/notosans_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'lato'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/lato_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'mukta'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/mukta_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'nunito'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/nunito_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'lora'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/lora_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'mulish'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/mulish_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'alegreya'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/alegreya_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'tinos'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/tinos_font.css"/>
+                </t>
+                <!-- Netherlands Font -->
+                <t t-if="pdf_font == 'dutch'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/dutch_font.css"/>
+                </t>
+                <!-- belgium Font -->
+                <t t-if="pdf_font == 'belgium'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/belgium_font.css"/>
+                </t>
+                <!-- Norway Font -->
+                <t t-if="pdf_font == 'norway'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/norway_font.css"/>
+                </t>
+                <!-- german Font -->
+                <t t-if="pdf_font == 'german'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/above_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'madeleinasans'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/madeleina_sans_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'swansea'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/swansea_font.css"/>
+                </t>
+                <!-- spain Font -->
+                <t t-if="pdf_font == 'georgia'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/georgia_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'museo'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/museosans_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'proxima_nova'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/proximanova_font.css"/>
+                </t>
+                <!-- german Font -->
+                <t t-if="pdf_font == 'caslon'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/caslon_font.css"/>
+                </t>
+                <!-- arabic Font -->
+                <t t-if="pdf_font == 'arabic'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/arabic_font.css"/>
+                </t>
+                <!-- Asian Font -->
+                <t t-if="pdf_font == 'time_new_roman'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/time_new_roman_font.css"/>
+                </t>
+                <!-- Asian Font -->
+                <t t-if="pdf_font == 'maisonNeue'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/maisonNeue-book.css"/>
+                </t>
+                <t t-if="pdf_font == 'sentinelbook'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_book_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'sentinelbold'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_bold_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'sentinel'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_light_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'foundersgroteskbold'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-bold_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'foundersgrotesklight'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-light_font.css"/>
+                </t>
+                <t t-if="pdf_font == 'foundersgroteskMedium'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-medium_font.css"/>
+                </t>
+        	</xpath>
+        </template>
+        
+        <template id="assets_backend3" name="widget assets" inherit_id="web.assets_backend">
+            <xpath expr="//link[last()]" position="after">
+                <t t-set="backend_fonts" t-value="request.env['ir.config_parameter'].sudo().get_param('ht_qweb_and_backend_fonts.backend_fonts')"/>
+                <t t-if="backend_fonts == 'tazawal' ">
+                  <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/tazawal_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'amiri'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/amiri_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'changa'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/changa_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'roboto'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/roboto_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'poppins'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/poppins_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'notosans'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/notosans_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'lato'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/lato_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'mukta'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/mukta_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'nunito'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/nunito_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'lora'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/lora_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'mulish'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/mulish_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'alegreya'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/alegreya_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'tinos'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/tinos_font.css"/>
+                </t>
+                <!-- Netherlands Font -->
+                <t t-if="backend_fonts == 'dutch'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/dutch_font.css"/>
+                </t>
+                <!-- belgium Font -->
+                <t t-if="backend_fonts == 'belgium'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/belgium_font.css"/>
+                </t>
+                <!-- Norway Font -->
+                <t t-if="backend_fonts == 'norway'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/norway_font.css"/>
+                </t>
+                <!-- german Font -->
+                <t t-if="backend_fonts == 'german'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/above_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'madeleinasans'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/madeleina_sans_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'swansea'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/swansea_font.css"/>
+                </t>
+                <!-- spain Font -->
+                <t t-if="backend_fonts == 'georgia'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/georgia_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'museo'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/museosans_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'proxima_nova'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/proximanova_font.css"/>
+                </t>
+                <!-- german Font -->
+                <t t-if="backend_fonts == 'caslon'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/caslon_font.css"/>
+                </t>
+                <!-- arabic Font -->
+                <t t-if="backend_fonts == 'arabic'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/arabic_font.css"/>
+                </t>
+                <!-- Asian Font -->
+                <t t-if="backend_fonts == 'time_new_roman'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/time_new_roman_font.css"/>
+                </t>
+                <!-- Asian Font -->
+                <t t-if="backend_fonts == 'maisonNeue'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/maisonNeue-book.css"/>
+                </t>
+                <t t-if="backend_fonts == 'sentinelbook'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_book_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'sentinelbold'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_bold_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'sentinel'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/sentinel_light_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'foundersgroteskbold'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-bold_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'foundersgrotesklight'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-light_font.css"/>
+                </t>
+                <t t-if="backend_fonts == 'foundersgroteskMedium'">
+                    <link rel="stylesheet" href="/ht_qweb_and_backend_fonts/static/src/css/foundersgrotesk-medium_font.css"/>
+                </t>
+            </xpath>
+        </template>
+    </data>
+</odoo>

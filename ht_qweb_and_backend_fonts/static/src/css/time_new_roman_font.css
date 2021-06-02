@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Time-new-roman';
+	src:url('../fonts/Times-New-Roman/Times-New-Roman-400.ttf');
+}
+span {
+	font-family: 'Time-new-roman';
+}
+p {
+	font-family: 'Time-new-roman';	
+}
+a {
+	font-family: 'Time-new-roman';		
+}
+h1 {
+	font-family: 'Time-new-roman';		
+}
+h2 {
+	font-family: 'Time-new-roman';		
+}
+h3 {
+	font-family: 'Time-new-roman';		
+}
+h4 {
+	font-family: 'Time-new-roman';		
+}
+
+h5 {
+	font-family: 'Time-new-roman';		
+}
+h6 {
+	font-family: 'Time-new-roman';		
+}
+li {
+	font-family: 'Time-new-roman';		
+}
+table {
+	font-family: 'Time-new-roman';		
+}
+td {
+	font-family: 'Time-new-roman';		
+}
+tr {
+	font-family: 'Time-new-roman';		
+}
+th {
+	font-family: 'Time-new-roman';		
+}
+b {
+	font-family: 'Time-new-roman';		
+}
+button{
+	font-family: 'Time-new-roman';		
+}
+button{
+	font-family: 'Time-new-roman';		
+}
+input{
+	font-family: 'Time-new-roman';		
+}
+textarea{
+	font-family: 'Time-new-roman';		
+}
+div{
+	font-family: 'Time-new-roman';		
+}
+address{
+	font-family: 'Time-new-roman';		
+}
+$font-family-sans-serif: "Time-new-roman";

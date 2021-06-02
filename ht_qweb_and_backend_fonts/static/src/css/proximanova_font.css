@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'ProximaNova';
+	src:url('../fonts/ProximaNova/ProximaNova-Regular.ttf');
+}
+span {
+	font-family: 'ProximaNova';
+}
+p {
+	font-family: 'ProximaNova';	
+}
+a {
+	font-family: 'ProximaNova';		
+}
+h1 {
+	font-family: 'ProximaNova';		
+}
+h2 {
+	font-family: 'ProximaNova';		
+}
+h3 {
+	font-family: 'ProximaNova';		
+}
+h4 {
+	font-family: 'ProximaNova';		
+}
+
+h5 {
+	font-family: 'ProximaNova';		
+}
+h6 {
+	font-family: 'ProximaNova';		
+}
+li {
+	font-family: 'ProximaNova';		
+}
+table {
+	font-family: 'ProximaNova';		
+}
+td {
+	font-family: 'ProximaNova';		
+}
+tr {
+	font-family: 'ProximaNova';		
+}
+th {
+	font-family: 'ProximaNova';		
+}
+b {
+	font-family: 'ProximaNova';		
+}
+button{
+	font-family: 'ProximaNova';		
+}
+button{
+	font-family: 'ProximaNova';		
+}
+input{
+	font-family: 'ProximaNova';		
+}
+textarea{
+	font-family: 'ProximaNova';		
+}
+div{
+	font-family: 'ProximaNova';		
+}
+address{
+	font-family: 'ProximaNova';		
+}
+$font-family-sans-serif: "ProximaNova";

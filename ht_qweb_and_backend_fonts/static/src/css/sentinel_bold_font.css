@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'SentinelBold';
+	src:url('../fonts/Sentinel-Bold/Sentinel-Bold.ttf');
+}
+span {
+	font-family: 'SentinelBold';
+}
+p {
+	font-family: 'SentinelBold';	
+}
+a {
+	font-family: 'SentinelBold';		
+}
+h1 {
+	font-family: 'SentinelBold';		
+}
+h2 {
+	font-family: 'SentinelBold';		
+}
+h3 {
+	font-family: 'SentinelBold';		
+}
+h4 {
+	font-family: 'SentinelBold';		
+}
+
+h5 {
+	font-family: 'SentinelBold';		
+}
+h6 {
+	font-family: 'SentinelBold';		
+}
+li {
+	font-family: 'SentinelBold';		
+}
+table {
+	font-family: 'SentinelBold';		
+}
+td {
+	font-family: 'SentinelBold';		
+}
+tr {
+	font-family: 'SentinelBold';		
+}
+th {
+	font-family: 'SentinelBold';		
+}
+b {
+	font-family: 'SentinelBold';		
+}
+button{
+	font-family: 'SentinelBold';		
+}
+button{
+	font-family: 'SentinelBold';		
+}
+input{
+	font-family: 'SentinelBold';		
+}
+textarea{
+	font-family: 'SentinelBold';		
+}
+div{
+	font-family: 'SentinelBold';		
+}
+address{
+	font-family: 'SentinelBold';		
+}
+$font-family-sans-serif: "SentinelBold";

@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Mulish';
+	src:url('../fonts/Mulish/Mulish-VariableFont_wght.ttf');
+}
+span {
+	font-family: 'Mulish';
+}
+p {
+	font-family: 'Mulish';	
+}
+a {
+	font-family: 'Mulish';		
+}
+h1 {
+	font-family: 'Mulish';		
+}
+h2 {
+	font-family: 'Mulish';		
+}
+h3 {
+	font-family: 'Mulish';		
+}
+h4 {
+	font-family: 'Mulish';		
+}
+
+h5 {
+	font-family: 'Mulish';		
+}
+h6 {
+	font-family: 'Mulish';		
+}
+li {
+	font-family: 'Mulish';		
+}
+table {
+	font-family: 'Mulish';		
+}
+td {
+	font-family: 'Mulish';		
+}
+tr {
+	font-family: 'Mulish';		
+}
+th {
+	font-family: 'Mulish';		
+}
+b {
+	font-family: 'Mulish';		
+}
+button{
+	font-family: 'Mulish';		
+}
+button{
+	font-family: 'Mulish';		
+}
+input{
+	font-family: 'Mulish';		
+}
+textarea{
+	font-family: 'Mulish';		
+}
+div{
+	font-family: 'Mulish';		
+}
+address{
+	font-family: 'Mulish';		
+}
+$font-family-sans-serif: "Mulish";

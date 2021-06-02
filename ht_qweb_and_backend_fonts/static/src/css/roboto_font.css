@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Roboto';
+	src:url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+span {
+	font-family: 'Roboto';
+}
+p {
+	font-family: 'Roboto';	
+}
+a {
+	font-family: 'Roboto';		
+}
+h1 {
+	font-family: 'Roboto';		
+}
+h2 {
+	font-family: 'Roboto';		
+}
+h3 {
+	font-family: 'Roboto';		
+}
+h4 {
+	font-family: 'Roboto';		
+}
+
+h5 {
+	font-family: 'Roboto';		
+}
+h6 {
+	font-family: 'Roboto';		
+}
+li {
+	font-family: 'Roboto';		
+}
+table {
+	font-family: 'Roboto';		
+}
+td {
+	font-family: 'Roboto';		
+}
+tr {
+	font-family: 'Roboto';		
+}
+th {
+	font-family: 'Roboto';		
+}
+b {
+	font-family: 'Roboto';		
+}
+button{
+	font-family: 'Roboto';		
+}
+button{
+	font-family: 'Roboto';		
+}
+input{
+	font-family: 'Roboto';		
+}
+textarea{
+	font-family: 'Roboto';		
+}
+div{
+	font-family: 'Roboto';		
+}
+address{
+	font-family: 'Roboto';		
+}
+$font-family-sans-serif: "Roboto";

@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Changa';
+	src:url('../fonts/Changa/Changa-VariableFont_wght.ttf');
+}
+span {
+	font-family: 'Changa';
+}
+p {
+	font-family: 'Changa';	
+}
+a {
+	font-family: 'Changa';		
+}
+h1 {
+	font-family: 'Changa';		
+}
+h2 {
+	font-family: 'Changa';		
+}
+h3 {
+	font-family: 'Changa';		
+}
+h4 {
+	font-family: 'Changa';		
+}
+
+h5 {
+	font-family: 'Changa';		
+}
+h6 {
+	font-family: 'Changa';		
+}
+li {
+	font-family: 'Changa';		
+}
+table {
+	font-family: 'Changa';		
+}
+td {
+	font-family: 'Changa';		
+}
+tr {
+	font-family: 'Changa';		
+}
+th {
+	font-family: 'Changa';		
+}
+b {
+	font-family: 'Changa';		
+}
+button{
+	font-family: 'Changa';		
+}
+button{
+	font-family: 'Changa';		
+}
+input{
+	font-family: 'Changa';		
+}
+textarea{
+	font-family: 'Changa';		
+}
+div{
+	font-family: 'Changa';		
+}
+address{
+	font-family: 'Changa';		
+}
+$font-family-sans-serif: "Changa";

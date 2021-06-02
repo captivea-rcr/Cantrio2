@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Tinos';
+	src:url('../fonts/Tinos/Tinos-Regular.ttf');
+}
+span {
+	font-family: 'Tinos';
+}
+p {
+	font-family: 'Tinos';	
+}
+a {
+	font-family: 'Tinos';		
+}
+h1 {
+	font-family: 'Tinos';		
+}
+h2 {
+	font-family: 'Tinos';		
+}
+h3 {
+	font-family: 'Tinos';		
+}
+h4 {
+	font-family: 'Tinos';		
+}
+
+h5 {
+	font-family: 'Tinos';		
+}
+h6 {
+	font-family: 'Tinos';		
+}
+li {
+	font-family: 'Tinos';		
+}
+table {
+	font-family: 'Tinos';		
+}
+td {
+	font-family: 'Tinos';		
+}
+tr {
+	font-family: 'Tinos';		
+}
+th {
+	font-family: 'Tinos';		
+}
+b {
+	font-family: 'Tinos';		
+}
+button{
+	font-family: 'Tinos';		
+}
+button{
+	font-family: 'Tinos';		
+}
+input{
+	font-family: 'Tinos';		
+}
+textarea{
+	font-family: 'Tinos';		
+}
+div{
+	font-family: 'Tinos';		
+}
+address{
+	font-family: 'Tinos';		
+}
+$font-family-sans-serif: "Tinos";

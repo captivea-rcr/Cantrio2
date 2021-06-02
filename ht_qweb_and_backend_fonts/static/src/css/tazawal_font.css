@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Tajawal';
+	src:url('../fonts/Tajawal/Tajawal-Regular.ttf');
+}
+span {
+	font-family: 'Tajawal';
+}
+p {
+	font-family: 'Tajawal';	
+}
+a {
+	font-family: 'Tajawal';		
+}
+h1 {
+	font-family: 'Tajawal';		
+}
+h2 {
+	font-family: 'Tajawal';		
+}
+h3 {
+	font-family: 'Tajawal';		
+}
+h4 {
+	font-family: 'Tajawal';		
+}
+
+h5 {
+	font-family: 'Tajawal';		
+}
+h6 {
+	font-family: 'Tajawal';		
+}
+li {
+	font-family: 'Tajawal';		
+}
+table {
+	font-family: 'Tajawal';		
+}
+td {
+	font-family: 'Tajawal';		
+}
+tr {
+	font-family: 'Tajawal';		
+}
+th {
+	font-family: 'Tajawal';		
+}
+b {
+	font-family: 'Tajawal';		
+}
+button{
+	font-family: 'Tajawal';		
+}
+button{
+	font-family: 'Tajawal';		
+}
+input{
+	font-family: 'Tajawal';		
+}
+textarea{
+	font-family: 'Tajawal';		
+}
+div{
+	font-family: 'Tajawal';		
+}
+address{
+	font-family: 'Tajawal';		
+}
+$font-family-sans-serif: "Tajawal";

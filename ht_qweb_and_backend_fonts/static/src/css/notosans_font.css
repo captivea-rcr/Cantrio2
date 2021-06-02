@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'NotoSans';
+	src:url('../fonts/Noto_Sans/NotoSans-Regular.ttf');
+}
+span {
+	font-family: 'NotoSans';
+}
+p {
+	font-family: 'NotoSans';	
+}
+a {
+	font-family: 'NotoSans';		
+}
+h1 {
+	font-family: 'NotoSans';		
+}
+h2 {
+	font-family: 'NotoSans';		
+}
+h3 {
+	font-family: 'NotoSans';		
+}
+h4 {
+	font-family: 'NotoSans';		
+}
+
+h5 {
+	font-family: 'NotoSans';		
+}
+h6 {
+	font-family: 'NotoSans';		
+}
+li {
+	font-family: 'NotoSans';		
+}
+table {
+	font-family: 'NotoSans';		
+}
+td {
+	font-family: 'NotoSans';		
+}
+tr {
+	font-family: 'NotoSans';		
+}
+th {
+	font-family: 'NotoSans';		
+}
+b {
+	font-family: 'NotoSans';		
+}
+button{
+	font-family: 'NotoSans';		
+}
+button{
+	font-family: 'NotoSans';		
+}
+input{
+	font-family: 'NotoSans';		
+}
+textarea{
+	font-family: 'NotoSans';		
+}
+div{
+	font-family: 'NotoSans';		
+}
+address{
+	font-family: 'NotoSans';		
+}
+$font-family-sans-serif: "NotoSans";

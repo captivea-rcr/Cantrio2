@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'FoundersGroteskBold';
+	src:url('../fonts/FoundersGrotesk-Bold/FoundersGrotesk-Bold.ttf');
+}
+span {
+	font-family: 'FoundersGroteskBold';
+}
+p {
+	font-family: 'FoundersGroteskBold';	
+}
+a {
+	font-family: 'FoundersGroteskBold';		
+}
+h1 {
+	font-family: 'FoundersGroteskBold';		
+}
+h2 {
+	font-family: 'FoundersGroteskBold';		
+}
+h3 {
+	font-family: 'FoundersGroteskBold';		
+}
+h4 {
+	font-family: 'FoundersGroteskBold';		
+}
+
+h5 {
+	font-family: 'FoundersGroteskBold';		
+}
+h6 {
+	font-family: 'FoundersGroteskBold';		
+}
+li {
+	font-family: 'FoundersGroteskBold';		
+}
+table {
+	font-family: 'FoundersGroteskBold';		
+}
+td {
+	font-family: 'FoundersGroteskBold';		
+}
+tr {
+	font-family: 'FoundersGroteskBold';		
+}
+th {
+	font-family: 'FoundersGroteskBold';		
+}
+b {
+	font-family: 'FoundersGroteskBold';		
+}
+button{
+	font-family: 'FoundersGroteskBold';		
+}
+button{
+	font-family: 'FoundersGroteskBold';		
+}
+input{
+	font-family: 'FoundersGroteskBold';		
+}
+textarea{
+	font-family: 'FoundersGroteskBold';		
+}
+div{
+	font-family: 'FoundersGroteskBold';		
+}
+address{
+	font-family: 'FoundersGroteskBold';		
+}
+$font-family-sans-serif: "FoundersGroteskBold";

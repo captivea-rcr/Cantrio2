@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Above';
+	src:url('../fonts/above-font/Above-Regular.ttf');
+}
+span {
+	font-family: 'Above';
+}
+p {
+	font-family: 'Above';	
+}
+a {
+	font-family: 'Above';		
+}
+h1 {
+	font-family: 'Above';		
+}
+h2 {
+	font-family: 'Above';		
+}
+h3 {
+	font-family: 'Above';		
+}
+h4 {
+	font-family: 'Above';		
+}
+
+h5 {
+	font-family: 'Above';		
+}
+h6 {
+	font-family: 'Above';		
+}
+li {
+	font-family: 'Above';		
+}
+table {
+	font-family: 'Above';		
+}
+td {
+	font-family: 'Above';		
+}
+tr {
+	font-family: 'Above';		
+}
+th {
+	font-family: 'Above';		
+}
+b {
+	font-family: 'Above';		
+}
+button{
+	font-family: 'Above';		
+}
+button{
+	font-family: 'Above';		
+}
+input{
+	font-family: 'Above';		
+}
+textarea{
+	font-family: 'Above';		
+}
+div{
+	font-family: 'Above';		
+}
+address{
+	font-family: 'Above';		
+}
+$font-family-sans-serif: "Above";

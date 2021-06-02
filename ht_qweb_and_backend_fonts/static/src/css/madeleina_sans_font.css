@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'madeleinasans';
+	src:url('../fonts/madeleina-sans-font/MadeleinaSans.ttf');
+}
+span {
+	font-family: 'madeleinasans';
+}
+p {
+	font-family: 'madeleinasans';	
+}
+a {
+	font-family: 'madeleinasans';		
+}
+h1 {
+	font-family: 'madeleinasans';		
+}
+h2 {
+	font-family: 'madeleinasans';		
+}
+h3 {
+	font-family: 'madeleinasans';		
+}
+h4 {
+	font-family: 'madeleinasans';		
+}
+
+h5 {
+	font-family: 'madeleinasans';		
+}
+h6 {
+	font-family: 'madeleinasans';		
+}
+li {
+	font-family: 'madeleinasans';		
+}
+table {
+	font-family: 'madeleinasans';		
+}
+td {
+	font-family: 'madeleinasans';		
+}
+tr {
+	font-family: 'madeleinasans';		
+}
+th {
+	font-family: 'madeleinasans';		
+}
+b {
+	font-family: 'madeleinasans';		
+}
+button{
+	font-family: 'madeleinasans';		
+}
+button{
+	font-family: 'madeleinasans';		
+}
+input{
+	font-family: 'madeleinasans';		
+}
+textarea{
+	font-family: 'madeleinasans';		
+}
+div{
+	font-family: 'madeleinasans';		
+}
+address{
+	font-family: 'madeleinasans';		
+}
+$font-family-sans-serif: "madeleinasans";

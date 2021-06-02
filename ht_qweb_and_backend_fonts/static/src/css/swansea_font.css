@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Swansea';
+	src:url('../fonts/swansea/Swansea-regular.ttf');
+}
+span {
+	font-family: 'Swansea';
+}
+p {
+	font-family: 'Swansea';	
+}
+a {
+	font-family: 'Swansea';		
+}
+h1 {
+	font-family: 'Swansea';		
+}
+h2 {
+	font-family: 'Swansea';		
+}
+h3 {
+	font-family: 'Swansea';		
+}
+h4 {
+	font-family: 'Swansea';		
+}
+
+h5 {
+	font-family: 'Swansea';		
+}
+h6 {
+	font-family: 'Swansea';		
+}
+li {
+	font-family: 'Swansea';		
+}
+table {
+	font-family: 'Swansea';		
+}
+td {
+	font-family: 'Swansea';		
+}
+tr {
+	font-family: 'Swansea';		
+}
+th {
+	font-family: 'Swansea';		
+}
+b {
+	font-family: 'Swansea';		
+}
+button{
+	font-family: 'Swansea';		
+}
+button{
+	font-family: 'Swansea';		
+}
+input{
+	font-family: 'Swansea';		
+}
+textarea{
+	font-family: 'Swansea';		
+}
+div{
+	font-family: 'Swansea';		
+}
+address{
+	font-family: 'Swansea';		
+}
+$font-family-sans-serif: "Swansea";

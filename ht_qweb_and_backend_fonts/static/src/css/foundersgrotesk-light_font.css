@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'FoundersGroteskLight';
+	src:url('../fonts/FoundersGrotesk-Light/FoundersGrotesk-Light.ttf');
+}
+span {
+	font-family: 'FoundersGroteskLight';
+}
+p {
+	font-family: 'FoundersGroteskLight';	
+}
+a {
+	font-family: 'FoundersGroteskLight';		
+}
+h1 {
+	font-family: 'FoundersGroteskLight';		
+}
+h2 {
+	font-family: 'FoundersGroteskLight';		
+}
+h3 {
+	font-family: 'FoundersGroteskLight';		
+}
+h4 {
+	font-family: 'FoundersGroteskLight';		
+}
+
+h5 {
+	font-family: 'FoundersGroteskLight';		
+}
+h6 {
+	font-family: 'FoundersGroteskLight';		
+}
+li {
+	font-family: 'FoundersGroteskLight';		
+}
+table {
+	font-family: 'FoundersGroteskLight';		
+}
+td {
+	font-family: 'FoundersGroteskLight';		
+}
+tr {
+	font-family: 'FoundersGroteskLight';		
+}
+th {
+	font-family: 'FoundersGroteskLight';		
+}
+b {
+	font-family: 'FoundersGroteskLight';		
+}
+button{
+	font-family: 'FoundersGroteskLight';		
+}
+button{
+	font-family: 'FoundersGroteskLight';		
+}
+input{
+	font-family: 'FoundersGroteskLight';		
+}
+textarea{
+	font-family: 'FoundersGroteskLight';		
+}
+div{
+	font-family: 'FoundersGroteskLight';		
+}
+address{
+	font-family: 'FoundersGroteskLight';		
+}
+$font-family-sans-serif: "FoundersGroteskLight";

@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Mukta';
+	src:url('../fonts/Mukta/Mukta-Regular.ttf');
+}
+span {
+	font-family: 'Mukta';
+}
+p {
+	font-family: 'Mukta';	
+}
+a {
+	font-family: 'Mukta';		
+}
+h1 {
+	font-family: 'Mukta';		
+}
+h2 {
+	font-family: 'Mukta';		
+}
+h3 {
+	font-family: 'Mukta';		
+}
+h4 {
+	font-family: 'Mukta';		
+}
+
+h5 {
+	font-family: 'Mukta';		
+}
+h6 {
+	font-family: 'Mukta';		
+}
+li {
+	font-family: 'Mukta';		
+}
+table {
+	font-family: 'Mukta';		
+}
+td {
+	font-family: 'Mukta';		
+}
+tr {
+	font-family: 'Mukta';		
+}
+th {
+	font-family: 'Mukta';		
+}
+b {
+	font-family: 'Mukta';		
+}
+button{
+	font-family: 'Mukta';		
+}
+button{
+	font-family: 'Mukta';		
+}
+input{
+	font-family: 'Mukta';		
+}
+textarea{
+	font-family: 'Mukta';		
+}
+div{
+	font-family: 'Mukta';		
+}
+address{
+	font-family: 'Mukta';		
+}
+$font-family-sans-serif: "Mukta";

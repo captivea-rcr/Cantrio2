@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Georgia';
+	src:url('../fonts/georgia/Georgia-Regular-font.ttf');
+}
+span {
+	font-family: 'Georgia';
+}
+p {
+	font-family: 'Georgia';	
+}
+a {
+	font-family: 'Georgia';		
+}
+h1 {
+	font-family: 'Georgia';		
+}
+h2 {
+	font-family: 'Georgia';		
+}
+h3 {
+	font-family: 'Georgia';		
+}
+h4 {
+	font-family: 'Georgia';		
+}
+
+h5 {
+	font-family: 'Georgia';		
+}
+h6 {
+	font-family: 'Georgia';		
+}
+li {
+	font-family: 'Georgia';		
+}
+table {
+	font-family: 'Georgia';		
+}
+td {
+	font-family: 'Georgia';		
+}
+tr {
+	font-family: 'Georgia';		
+}
+th {
+	font-family: 'Georgia';		
+}
+b {
+	font-family: 'Georgia';		
+}
+button{
+	font-family: 'Georgia';		
+}
+button{
+	font-family: 'Georgia';		
+}
+input{
+	font-family: 'Georgia';		
+}
+textarea{
+	font-family: 'Georgia';		
+}
+div{
+	font-family: 'Georgia';		
+}
+address{
+	font-family: 'Georgia';		
+}
+$font-family-sans-serif: "Georgia";

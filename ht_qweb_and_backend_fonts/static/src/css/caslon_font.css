@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Caslon';
+	src:url('../fonts/Caslon/CaslonPro-Regular.ttf');
+}
+span {
+	font-family: 'Caslon';
+}
+p {
+	font-family: 'Caslon';	
+}
+a {
+	font-family: 'Caslon';		
+}
+h1 {
+	font-family: 'Caslon';		
+}
+h2 {
+	font-family: 'Caslon';		
+}
+h3 {
+	font-family: 'Caslon';		
+}
+h4 {
+	font-family: 'Caslon';		
+}
+
+h5 {
+	font-family: 'Caslon';		
+}
+h6 {
+	font-family: 'Caslon';		
+}
+li {
+	font-family: 'Caslon';		
+}
+table {
+	font-family: 'Caslon';		
+}
+td {
+	font-family: 'Caslon';		
+}
+tr {
+	font-family: 'Caslon';		
+}
+th {
+	font-family: 'Caslon';		
+}
+b {
+	font-family: 'Caslon';		
+}
+button{
+	font-family: 'Caslon';		
+}
+button{
+	font-family: 'Caslon';		
+}
+input{
+	font-family: 'Caslon';		
+}
+textarea{
+	font-family: 'Caslon';		
+}
+div{
+	font-family: 'Caslon';		
+}
+address{
+	font-family: 'Caslon';		
+}
+$font-family-sans-serif: "Caslon";

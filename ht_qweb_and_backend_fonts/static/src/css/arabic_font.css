@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Arabic';
+	src:url('../fonts/arabic/arabic.ttf');
+}
+span {
+	font-family: 'Arabic';
+}
+p {
+	font-family: 'Arabic';	
+}
+a {
+	font-family: 'Arabic';		
+}
+h1 {
+	font-family: 'Arabic';		
+}
+h2 {
+	font-family: 'Arabic';		
+}
+h3 {
+	font-family: 'Arabic';		
+}
+h4 {
+	font-family: 'Arabic';		
+}
+
+h5 {
+	font-family: 'Arabic';		
+}
+h6 {
+	font-family: 'Arabic';		
+}
+li {
+	font-family: 'Arabic';		
+}
+table {
+	font-family: 'Arabic';		
+}
+td {
+	font-family: 'Arabic';		
+}
+tr {
+	font-family: 'Arabic';		
+}
+th {
+	font-family: 'Arabic';		
+}
+b {
+	font-family: 'Arabic';		
+}
+button{
+	font-family: 'Arabic';		
+}
+button{
+	font-family: 'Arabic';		
+}
+input{
+	font-family: 'Arabic';		
+}
+textarea{
+	font-family: 'Arabic';		
+}
+div{
+	font-family: 'Arabic';		
+}
+address{
+	font-family: 'Arabic';		
+}
+$font-family-sans-serif: "Arabic";

@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Poppins';
+	src:url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+span {
+	font-family: 'Poppins';
+}
+p {
+	font-family: 'Poppins';	
+}
+a {
+	font-family: 'Poppins';		
+}
+h1 {
+	font-family: 'Poppins';		
+}
+h2 {
+	font-family: 'Poppins';		
+}
+h3 {
+	font-family: 'Poppins';		
+}
+h4 {
+	font-family: 'Poppins';		
+}
+
+h5 {
+	font-family: 'Poppins';		
+}
+h6 {
+	font-family: 'Poppins';		
+}
+li {
+	font-family: 'Poppins';		
+}
+table {
+	font-family: 'Poppins';		
+}
+td {
+	font-family: 'Poppins';		
+}
+tr {
+	font-family: 'Poppins';		
+}
+th {
+	font-family: 'Poppins';		
+}
+b {
+	font-family: 'Poppins';		
+}
+button{
+	font-family: 'Poppins';		
+}
+button{
+	font-family: 'Poppins';		
+}
+input{
+	font-family: 'Poppins';		
+}
+textarea{
+	font-family: 'Poppins';		
+}
+div{
+	font-family: 'Poppins';		
+}
+address{
+	font-family: 'Poppins';		
+}
+$font-family-sans-serif: "Poppins";

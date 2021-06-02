@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Dutch';
+	src:url('../fonts/dutch/Dutch Regular.ttf');
+}
+span {
+	font-family: 'Dutch';
+}
+p {
+	font-family: 'Dutch';	
+}
+a {
+	font-family: 'Dutch';		
+}
+h1 {
+	font-family: 'Dutch';		
+}
+h2 {
+	font-family: 'Dutch';		
+}
+h3 {
+	font-family: 'Dutch';		
+}
+h4 {
+	font-family: 'Dutch';		
+}
+
+h5 {
+	font-family: 'Dutch';		
+}
+h6 {
+	font-family: 'Dutch';		
+}
+li {
+	font-family: 'Dutch';		
+}
+table {
+	font-family: 'Dutch';		
+}
+td {
+	font-family: 'Dutch';		
+}
+tr {
+	font-family: 'Dutch';		
+}
+th {
+	font-family: 'Dutch';		
+}
+b {
+	font-family: 'Dutch';		
+}
+button{
+	font-family: 'Dutch';		
+}
+button{
+	font-family: 'Dutch';		
+}
+input{
+	font-family: 'Dutch';		
+}
+textarea{
+	font-family: 'Dutch';		
+}
+div{
+	font-family: 'Dutch';		
+}
+address{
+	font-family: 'Dutch';		
+}
+$font-family-sans-serif: "Dutch";

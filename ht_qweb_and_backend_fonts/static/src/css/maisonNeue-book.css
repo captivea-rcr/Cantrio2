@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'MaisonNeueBook';
+	src:url('../fonts/MaisonNeue-Book/MaisonNeue-Book.ttf');
+}
+span {
+	font-family: 'MaisonNeueBook';
+}
+p {
+	font-family: 'MaisonNeueBook';	
+}
+a {
+	font-family: 'MaisonNeueBook';		
+}
+h1 {
+	font-family: 'MaisonNeueBook';		
+}
+h2 {
+	font-family: 'MaisonNeueBook';		
+}
+h3 {
+	font-family: 'MaisonNeueBook';		
+}
+h4 {
+	font-family: 'MaisonNeueBook';		
+}
+
+h5 {
+	font-family: 'MaisonNeueBook';		
+}
+h6 {
+	font-family: 'MaisonNeueBook';		
+}
+li {
+	font-family: 'MaisonNeueBook';		
+}
+table {
+	font-family: 'MaisonNeueBook';		
+}
+td {
+	font-family: 'MaisonNeueBook';		
+}
+tr {
+	font-family: 'MaisonNeueBook';		
+}
+th {
+	font-family: 'MaisonNeueBook';		
+}
+b {
+	font-family: 'MaisonNeueBook';		
+}
+button{
+	font-family: 'MaisonNeueBook';		
+}
+button{
+	font-family: 'MaisonNeueBook';		
+}
+input{
+	font-family: 'MaisonNeueBook';		
+}
+textarea{
+	font-family: 'MaisonNeueBook';		
+}
+div{
+	font-family: 'MaisonNeueBook';		
+}
+address{
+	font-family: 'MaisonNeueBook';		
+}
+$font-family-sans-serif: "MaisonNeueBook";

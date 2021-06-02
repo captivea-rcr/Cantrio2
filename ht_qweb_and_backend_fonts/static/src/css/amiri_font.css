@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Amiri';
+	src:url('../fonts/Amiri/Amiri-Regular.ttf');
+}
+span {
+	font-family: 'Amiri';
+}
+p {
+	font-family: 'Amiri';	
+}
+a {
+	font-family: 'Amiri';		
+}
+h1 {
+	font-family: 'Amiri';		
+}
+h2 {
+	font-family: 'Amiri';		
+}
+h3 {
+	font-family: 'Amiri';		
+}
+h4 {
+	font-family: 'Amiri';		
+}
+
+h5 {
+	font-family: 'Amiri';		
+}
+h6 {
+	font-family: 'Amiri';		
+}
+li {
+	font-family: 'Amiri';		
+}
+table {
+	font-family: 'Amiri';		
+}
+td {
+	font-family: 'Amiri';		
+}
+tr {
+	font-family: 'Amiri';		
+}
+th {
+	font-family: 'Amiri';		
+}
+b {
+	font-family: 'Amiri';		
+}
+button{
+	font-family: 'Amiri';		
+}
+button{
+	font-family: 'Amiri';		
+}
+input{
+	font-family: 'Amiri';		
+}
+textarea{
+	font-family: 'Amiri';		
+}
+div{
+	font-family: 'Amiri';		
+}
+address{
+	font-family: 'Amiri';		
+}
+$font-family-sans-serif: "Amiri";

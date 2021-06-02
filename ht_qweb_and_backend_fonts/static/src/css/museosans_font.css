@@ -1,0 +1,69 @@
+@font-face{
+	font-family:'Museo';
+	src:url('../fonts/museo/Museo_Sans_500.ttf');
+}
+span {
+	font-family: 'Museo';
+}
+p {
+	font-family: 'Museo';	
+}
+a {
+	font-family: 'Museo';		
+}
+h1 {
+	font-family: 'Museo';		
+}
+h2 {
+	font-family: 'Museo';		
+}
+h3 {
+	font-family: 'Museo';		
+}
+h4 {
+	font-family: 'Museo';		
+}
+
+h5 {
+	font-family: 'Museo';		
+}
+h6 {
+	font-family: 'Museo';		
+}
+li {
+	font-family: 'Museo';		
+}
+table {
+	font-family: 'Museo';		
+}
+td {
+	font-family: 'Museo';		
+}
+tr {
+	font-family: 'Museo';		
+}
+th {
+	font-family: 'Museo';		
+}
+b {
+	font-family: 'Museo';		
+}
+button{
+	font-family: 'Museo';		
+}
+button{
+	font-family: 'Museo';		
+}
+input{
+	font-family: 'Museo';		
+}
+textarea{
+	font-family: 'Museo';		
+}
+div{
+	font-family: 'Museo';		
+}
+address{
+	font-family: 'Museo';		
+}
+$font-family-sans-serif: "Museo";
