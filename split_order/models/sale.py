@@ -23,6 +23,12 @@ class SaleOrder(models.Model):
     def action_schedule(self):
         # if not self.purchase_order:
         #     raise UserError('Purchase Order is Required')
+        if not self.x_studio_project_id and not self.purchase_order:
+            raise UserError("Purchase Order & Project Name Fields must be filled")
+        elif not self.x_studio_project_id:
+            raise UserError("Project Name Field must be filled")
+        elif not self.purchase_order:
+            raise UserError("Purchase Order Field must be filled")
         if self.x_studio_order_type == 'Retail Based Order':
             self.action_confirm()
             self.picking_ids[0].write({'x_studio_customer_purchase_order': self.purchase_order})
