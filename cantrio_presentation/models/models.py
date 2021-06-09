@@ -244,16 +244,16 @@ class SaleOrder(models.Model):
 
     def get_sorted_products(self):
         product_sequence = {}
-        # for product in self.product_lines.sorted(key=lambda p: p.pres_category_id.name if p.pres_category_id else 'False'):
-            # if not product.pres_category_id:
-            #     if 0 in product_sequence:product_sequence[product.pres_category_id] = min (product_sequence[0],product.x_studio_presentation_sequence)
-            #     else:product_sequence[0] = product.x_studio_presentation_sequence
-            # elif product.pres_category_id in product_sequence:
-            #     product_sequence[product.pres_category_id] = min (product_sequence[product.pres_category_id],product.x_studio_presentation_sequence)
-            # else:
-            #     product_sequence[product.pres_category_id] = product.x_studio_presentation_sequence
+        for product in self.product_lines.sorted(key=lambda p: p.pres_category_id.name if p.pres_category_id else 'False'):
+            if not product.pres_category_id:
+                if 0 in product_sequence:product_sequence[product.pres_category_id] = min (product_sequence[0],product.x_studio_presentation_sequence)
+                else:product_sequence[0] = product.x_studio_presentation_sequence
+            elif product.pres_category_id in product_sequence:
+                product_sequence[product.pres_category_id] = min (product_sequence[product.pres_category_id],product.x_studio_presentation_sequence)
+            else:
+                product_sequence[product.pres_category_id] = product.x_studio_presentation_sequence
 
-        products = self.product_lines.sorted(key=lambda p: (0,p.pres_category_id.name) if p.pres_category_id else (0,'False'))
+        products = self.product_lines.sorted(key=lambda p: (product_sequence[p.pres_category_id],p.pres_category_id.name) if p.pres_category_id else (product_sequence[0],'False'))
         page = 1
         prod = 0
         last_categ = self.get_category(products[0].product_id)
