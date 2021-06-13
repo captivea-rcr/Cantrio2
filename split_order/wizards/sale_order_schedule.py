@@ -36,7 +36,7 @@ class SaleOrderSchedule(models.TransientModel):
                                   'scheduled_date2': self.schedule_date})
                 if '.' not in picking[0]['name']:
                     picking[0]['name']=picking[0]['name']+'.1'
-                picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking)+1)}).copy()
+                picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking)+1)}).copy()
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
@@ -75,7 +75,7 @@ class SaleOrderSchedule(models.TransientModel):
                                   'scheduled_date2': self.schedule_date})
                 if '.' not in picking[0]['name']:
                     picking[0]['name']=picking[0]['name']+'.1'
-                picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking)+1)}).copy()
+                picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking)+1)}).copy()
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
@@ -113,7 +113,7 @@ class SaleOrderSchedule(models.TransientModel):
             else:
                 picking = self.order_id.picking_ids.sorted(reverse=True)
                 if picking:
-                    picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking))}).copy()
+                    picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking))}).copy()
                     picking[0].with_context({'picking_state': 'hold'})._compute_state()
                     for move in picking.move_ids_without_package:
                         move.state = 'hold'
