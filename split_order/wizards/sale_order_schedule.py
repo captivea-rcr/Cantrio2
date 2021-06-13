@@ -23,6 +23,8 @@ class SaleOrderSchedule(models.TransientModel):
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
                                   'scheduled_date2': self.schedule_date})
+                if '.' not in picking[0]['name']:
+                    picking[0]['name']=picking[0]['name']+'.1'
                 for move in picking[0].move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
@@ -32,6 +34,8 @@ class SaleOrderSchedule(models.TransientModel):
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
                                   'scheduled_date2': self.schedule_date})
+                if '.' not in picking[0]['name']:
+                    picking[0]['name']=picking[0]['name']+'.1'
                 picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking)+1)}).copy()
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
@@ -49,8 +53,12 @@ class SaleOrderSchedule(models.TransientModel):
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
                                   'scheduled_date2': self.schedule_date})
+                if '.' not in picking[0]['name']:
+                    picking[0]['name']=picking[0]['name']+'.1'
                 for move in picking[0].move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
+                    if len(s_line)>1:
+                        raise Warning("Duplicate products are on this order, unable to split deliveries")
                     move.product_uom_qty = s_line.do_qty
             for line in self.order_id.order_line:
                 minus_line = self.schedule_line_ids.filtered(lambda r: r.product_id == line.product_id)
@@ -65,7 +73,9 @@ class SaleOrderSchedule(models.TransientModel):
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
                                   'scheduled_date2': self.schedule_date})
-                picking = picking[0].with_context({'name': str(picking[-1].name) + '-' + str(len(picking))}).copy()
+                if '.' not in picking[0]['name']:
+                    picking[0]['name']=picking[0]['name']+'.1'
+                picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking)+1)}).copy()
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
