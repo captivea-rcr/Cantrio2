@@ -32,7 +32,7 @@ class SaleOrderSchedule(models.TransientModel):
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
                                   'scheduled_date2': self.schedule_date})
-                picking = picking[0].with_context({'name': str(picking[-1].name) + '-' + str(len(picking))}).copy()
+                picking = picking[0].with_context({'name': str(picking[-1].name) + '.' + str(len(picking)+1)}).copy()
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
