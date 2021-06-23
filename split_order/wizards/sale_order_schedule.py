@@ -1,5 +1,9 @@
 from odoo import api, fields, models
 
+import logging
+
+_logger = logging.getLogger(__name__)
+
 
 class SaleOrderSchedule(models.TransientModel):
     _name = 'sale.order.schedule'
@@ -49,6 +53,7 @@ class SaleOrderSchedule(models.TransientModel):
         if self.order_id.state != 'sale':
             self.order_id.action_confirm()
             picking = self.order_id.picking_ids.sorted(reverse=True)
+            logging.warning(str(picking))
             if picking:
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
@@ -69,6 +74,7 @@ class SaleOrderSchedule(models.TransientModel):
             ctx['default_schedule_line_ids'] = [(6, 0, lines.ids)]
         else:
             picking = self.order_id.picking_ids.sorted(reverse=True)
+            logging.warning(str(picking))
             if picking:
                 picking[0].write({'x_studio_contact_name': self.contact_name,
                                   'x_studio_contact_phone_1': self.phone,
@@ -104,6 +110,7 @@ class SaleOrderSchedule(models.TransientModel):
             if self.order_id.state != 'sale':
                 self.order_id.action_confirm()
                 picking = self.order_id.picking_ids.sorted(reverse=True)
+                logging.warning(str(picking))
                 if picking:
                     picking[0].with_context({'picking_state': 'hold'})._compute_state()
                     for move in picking[0].move_ids_without_package:
@@ -112,6 +119,7 @@ class SaleOrderSchedule(models.TransientModel):
                         move.reserved_availability = s_line.reserved_qty
             else:
                 picking = self.order_id.picking_ids.sorted(reverse=True)
+                logging.warning(str(picking))
                 if picking:
                     picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking))}).copy()
                     picking[0].with_context({'picking_state': 'hold'})._compute_state()
