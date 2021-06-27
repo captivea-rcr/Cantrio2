@@ -32,6 +32,8 @@ class SaleOrderSchedule(models.TransientModel):
                 for move in picking[0].move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
+            else:
+                raise Warning("No picking found")
         else:
             picking = self.order_id.picking_ids.sorted(reverse=True)
             if picking:
@@ -65,6 +67,8 @@ class SaleOrderSchedule(models.TransientModel):
                     if len(s_line)>1:
                         raise Warning("Duplicate products are on this order, unable to split deliveries")
                     move.product_uom_qty = s_line.do_qty
+            else:
+                logging.warning("No picking found on schedule_another !=sale")
             for line in self.order_id.order_line:
                 minus_line = self.schedule_line_ids.filtered(lambda r: r.product_id == line.product_id)
                 if line.product_uom_qty - minus_line.do_qty > 0:
@@ -85,6 +89,8 @@ class SaleOrderSchedule(models.TransientModel):
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
+            else:
+                logging.warning("No picking found on schedule_another ==sale")
             for line in self.order_id.order_line:
                 minus_line = self.schedule_line_ids.filtered(lambda r: r.product_id == line.product_id)
                 if line.product_uom_qty - minus_line.do_qty > 0:
