@@ -37,12 +37,13 @@ class SaleOrderSchedule(models.TransientModel):
         else:
             picking = self.order_id.picking_ids.sorted(reverse=True)
             if picking:
-                picking[0].write({'x_studio_contact_name': self.contact_name,
-                                  'x_studio_contact_phone_1': self.phone,
-                                  'scheduled_date2': self.schedule_date})
+                
                 if '.' not in picking[0]['name']:
                     picking[0]['name']=picking[0]['name']+'.1'
                 picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking)+1)}).copy()
+                picking.write({'x_studio_contact_name': self.contact_name,
+                                  'x_studio_contact_phone_1': self.phone,
+                                  'scheduled_date2': self.schedule_date})
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
@@ -80,12 +81,13 @@ class SaleOrderSchedule(models.TransientModel):
             picking = self.order_id.picking_ids.sorted(reverse=True)
             logging.warning(str(picking))
             if picking:
-                picking[0].write({'x_studio_contact_name': self.contact_name,
-                                  'x_studio_contact_phone_1': self.phone,
-                                  'scheduled_date2': self.schedule_date})
+                
                 if '.' not in picking[0]['name']:
                     picking[0]['name']=picking[0]['name']+'.1'
                 picking = picking[0].with_context({'name': str(picking[-1].name)[:-2] + '.' + str(len(picking)+1)}).copy()
+                picking.write({'x_studio_contact_name': self.contact_name,
+                                  'x_studio_contact_phone_1': self.phone,
+                                  'scheduled_date2': self.schedule_date})
                 for move in picking.move_ids_without_package:
                     s_line = self.schedule_line_ids.filtered(lambda r: r.product_id == move.product_id)
                     move.product_uom_qty = s_line.do_qty
